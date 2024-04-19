@@ -1,0 +1,10 @@
+src/public/vendor/
+src/app/core/.env
+src/app/core/config.php
+Dockerfile
+.scannerwork
+db_data/
+init-db/
+docker-compose.yml
+.scannerwork
+nginx.conf

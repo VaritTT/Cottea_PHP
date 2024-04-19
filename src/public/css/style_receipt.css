@@ -1,0 +1,109 @@
+.container-receipt {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+.table-container {
+    margin: 0 auto;
+}
+
+.header-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.header-info h3 {
+    padding: 10px;
+}
+
+.header-info img {
+    width: 100px;
+    height: 100px;
+}
+
+.header-info h3 {
+    margin: 0;
+    padding: 10px;
+}
+
+.order-header {
+    margin-bottom: 20px;
+}
+
+.order-detail table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.order-detail table tr:first-child {
+    font-weight: bold;
+}
+
+.order-detail table th,
+.order-detail table td {
+    padding: 8px;
+}
+
+.order-detail table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.order-content img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.order-summary {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.order-summary div {
+    margin-bottom: 5px;
+}
+
+.create-btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.download-pdf-btn {
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    background-color: #FF0000;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 1rem;
+}
+
+.download-pdf-btn:hover {
+    background-color: #CC0000;
+}
+
+
+.download-csv-btn {
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    background-color: #008000;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.download-csv-btn:hover {
+    background-color: #006600;
+}
+
+.product-image img {
+    width: 100px;
+    height: 100px;
+}

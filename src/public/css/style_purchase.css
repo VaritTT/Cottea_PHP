@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.product-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.product-content {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    font-size: 16px;
+    border-bottom: 1px solid #ccc;
+}
+
+.product-content:hover {
+    background-color: #f9f9f9;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.product-image img {
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.product-detail {
+    padding: 0 1rem;
+}
+
+.order-btn {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+.order-btn2 {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    height: 5rem;
+}
+
+
+.btn-action {
+    margin-top: 5rem;
+    padding: 0.75rem 1rem;
+    font-size: 14px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn-cancel {
+    width: 8rem;
+    position: absolute;
+    bottom: 1rem;
+    background-color: #ff0000;
+    transition: background-color 0.3s;
+
+}
+
+.btn-cancel:hover {
+    background-color: #cc0000;
+}
+
+.btn-buy {
+    background-color: #4CAF50;
+    margin-left: 8px;
+    transition: background-color 0.3s;
+}
+
+.btn-buy:hover {
+    background-color: #45a049;
+}
+
+.order-btn {
+    display: flex;
+    float: right;
+}
+
+
+.list-btn {
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.error-message {
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav-status {
+    height: 5rem;
+    width: 100%;
+    background-color: #f4f4f4;
+    border-radius: 4px;
+
+}
+
+.nav-status a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    width: 20%;
+}
+
+.nav-status a:hover {
+    border-bottom: 3px solid #588157;
+    color: #588157;
+    font-weight: 500;
+}
+
+.order-main {
+    margin-bottom: 1rem;
+    border-bottom: 5px solid #ccc;
+}
+
+.product-main {
+    margin-left: 0;
+}
+
+ul {
+    padding-left: 0;
+}

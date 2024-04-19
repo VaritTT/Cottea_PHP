@@ -1,0 +1,57 @@
+form .input-field {
+  flex-direction: row;
+  column-gap: 10px;
+}
+.input-field input {
+  height: 45px;
+  width: 42px;
+  border-radius: 6px;
+  outline: none;
+  font-size: 1.125rem;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+.input-field input:focus {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+.input-field input::-webkit-inner-spin-button,
+.input-field input::-webkit-outer-spin-button {
+  display: none;
+}
+
+form .btn2.active {
+  background: #4D6A44;
+  pointer-events: auto;
+}
+form .btn2:hover {
+  background: #263E29;
+}
+
+form .btn2{
+  position: relative;
+  margin-top: 25px;
+  /* top: 0; */
+  /* left: 0; */
+  width: 100%;
+  height: 48px;
+  background: #757671;
+  font-size: 16px;
+  color: #F7F6E1;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 9px 0;
+  pointer-events: none;
+  transition: all 0.2s ease;
+}
+
+form .sign-link p{
+  color: #49352E;
+  margin-bottom: 12px;
+}
+
+form .sign-link b{
+  color: #4D6A44;
+}

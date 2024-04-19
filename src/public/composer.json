@@ -1,0 +1,8 @@
+{
+    "require": {
+        "google/apiclient": "^2.0",
+        "mpdf/mpdf": "^8.2",
+        "firebase/php-jwt": "^6.10",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}

@@ -1,0 +1,38 @@
+.wrapper .content {
+  /* background-color: #4285F4; */
+  margin-left: 10px;
+}
+
+.content p {
+  color: #333;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.content .requirement-list {
+  margin-top: 16px;
+  /* background-color: #999; */
+}
+
+.requirement-list li {
+  font-size: 0.85rem;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+
+/* ไอคอน ปกติ
+.requirement-list li i {
+  width: 24px;
+  color: #aaa;
+  font-size: 0.6rem;
+}
+
+ไอคอน เมื่อตรวจสอบถูก
+.requirement-list li.valid i {
+  font-size: 1.2rem;
+  color: #263E29;
+}
+*/
